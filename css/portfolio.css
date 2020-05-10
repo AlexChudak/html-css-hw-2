@@ -42,6 +42,11 @@ ul {
   color: var(--accent-color);
 }
 
+/* чтобы подсечивалась ссылка */
+.site-nav .link-current {
+  color: var(--accent-color);
+}
+
 /* auth-nav */
 
 .auth-nav .link {
@@ -51,25 +56,4 @@ ul {
 .auth-nav .link:hover,
 .sauth-nav .link:focus {
   color: var(--accent-color);
-}
-
-/* Hero */
-.hero-title {
-  color: white;
-}
-
-/* Section & h2 */
-.section-title {
-  color: var(--primary-text-color);
-}
-
-/* Features */
-.features-text {
-  color: var(--title-text-color);
-}
-
-/* button */
-.button {
-  color: white;
-  background-color: var(--primary-bg-color);
 }

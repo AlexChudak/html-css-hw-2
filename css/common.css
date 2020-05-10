@@ -1,0 +1,64 @@
+body {
+  color: #212121;
+  background-color: white;
+}
+/* убираем точки в списке во всем файле */
+ul {
+  list-style: none;
+}
+
+/* CSS переменные, применяем кл всем доку */
+
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-bg-color: #2196f3;
+}
+
+/* фон хедера background:#FFFFFF */
+/* фон основной #E5E5E5 */
+/* фона доп #F5F4FA */
+/* фон футера #2F303A */
+/* цвет основного текста #212121 */
+/* цвет дополнительного текста #757575*/
+/* цвет текста белый #FFFFFF */
+/* цвет акцента текста #2196F3 и заливка кнопок */
+/*  Developed by color: rgba(255, 255, 255, 0.4); */
+
+/* logo */
+.logo {
+  color: var(--primary-text-color);
+}
+
+/* site-nav */
+
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* чтобы подсечивалась ссылка */
+.site-nav .link-current {
+  color: var(--accent-color);
+}
+
+/* auth-nav */
+
+.auth-nav .link {
+  color: var(--secondary-text-color);
+}
+
+.auth-nav .link:hover,
+.sauth-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* button */
+.button {
+  color: white;
+  background-color: var(--primary-bg-color);
