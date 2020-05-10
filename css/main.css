@@ -30,6 +30,9 @@ ul {
 .logo {
   color: var(--primary-text-color);
 }
+.web {
+  color: #2196f3;
+}
 
 /* site-nav */
 
@@ -70,11 +73,46 @@ ul {
 
 /* Features */
 .features-text {
-  color: var(--title-text-color);
+  color: var(--secondary-text-color);
 }
 
 /* button */
 .button {
   color: white;
   background-color: var(--primary-bg-color);
+}
+
+/* ЧЕМ МЫ ЗАНИМАЕМСЯ */
+.section .workline {
+  color: white;
+}
+
+/* наша команда */
+.ourteam {
+  background-color: #f5f4fa;
+}
+.name {
+  color: var(--primary-text-color);
+}
+
+.position {
+  color: var(--secondary-text-color);
+}
+
+/* футер */
+footer {
+  background-color: #2f303a;
+  color: white;
+}
+.logo-footer {
+  color: white;
+}
+/* address */
+
+.adress-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.madeby {
+  color: rgba(255, 255, 255, 0.6);
 }

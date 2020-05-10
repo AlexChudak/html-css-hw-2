@@ -10,7 +10,9 @@
   <body>
     <header>
       <nav>
-        <a class="logo" href="./index.html"> web studio </a>
+        <a class="logo" href="./index.html">
+          <span><span class="web">Web</span>Studio</span>
+        </a>
 
         <ul class="site-nav">
           <li><a href="" class="link-current">Студия</a></li>
@@ -89,56 +91,29 @@
         <h2 class="section-title">Чем мы занимаемся</h2>
         <ul>
           <li>
-            <figure>
-              <!--Десктопные приложения -->
-              <img
-                src="./Images/desktop.png"
-                width="380"
-                alt="десктопные приложения"
-              />
-              <figcaption>
-                десктопные приложения
-              </figcaption>
-            </figure>
+            <img src="./Images/desktop.png" alt="Десктопные решения" />
+            <span class="workline">ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ</span>
           </li>
           <li>
-            <figure>
-              <!--мобильные приложения -->
-              <img
-                src="./Images/mobile1.png"
-                width="380"
-                alt="мобильные приложения"
-              />
-              <figcaption>
-                мобильные приложения
-              </figcaption>
-            </figure>
+            <img src="./Images/mobile1.png" alt="мобильные приложения" />
+            <span class="workline">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</span>
           </li>
           <li>
-            <figure>
-              <!--дизайнерские решения -->
-              <img
-                src="./Images/Design.png"
-                width="380"
-                alt="дизайнерские решения"
-              />
-              <figcaption>
-                дизайнерские решения
-              </figcaption>
-            </figure>
+            <img src="./Images/Design.png" alt="дизайнерские решения" />
+            <span class="workline">ДИЗАЙНЕРСКИЕ РЕШЕНИЯ</span>
           </li>
         </ul>
       </section>
     </div>
     <!--Наша команда-->
-    <div>
+    <div class="ourteam">
       <section class="section">
         <h2 class="section-title">Наша команда</h2>
         <ul>
           <li>
             <img src="./Images/john.jpg" width="278" alt="" />
-            <span> John Smith</span>
-            <span> Product Designer</span>
+            <span class="name"> John Smith</span>
+            <span class="position"> Product Designer</span>
             <ul>
               <li><a href="" aria-label="link to instagram">Instagram</a></li>
               <li><a href="" aria-label="link to Facebook">Facebook</a></li>
@@ -148,8 +123,8 @@
           </li>
           <li>
             <img src="./Images/marta.jpg" width="278" alt="" />
-            <span> Marta Stewart</span>
-            <span> Frontend Developer</span>
+            <span class="name"> Marta Stewart</span>
+            <span class="position"> Frontend Developer</span>
             <ul>
               <li><a href="" aria-label="link to instagram">Instagram</a></li>
               <li><a href="" aria-label="link to Facebook">Facebook</a></li>
@@ -159,8 +134,8 @@
           </li>
           <li>
             <img src="./Images/robert.jpg" width="278" alt="" />
-            <span> Robert Jakis</span>
-            <span> Marketing</span>
+            <span class="name"> Robert Jakis</span>
+            <span class="position"> Marketing</span>
             <ul>
               <li><a href="" aria-label="link to instagram">Instagram</a></li>
               <li><a href="" aria-label="link to Facebook">Facebook</a></li>
@@ -170,8 +145,8 @@
           </li>
           <li>
             <img src="./Images/martin.jpg" width="278" alt="" />
-            <span> Martin Doe</span>
-            <span> UI Designer</span>
+            <span class="name"> Martin Doe</span>
+            <span class="position"> UI Designer</span>
             <ul>
               <li><a href="" aria-label="link to instagram">Instagram</a></li>
               <li><a href="" aria-label="link to Facebook">Facebook</a></li>
@@ -230,16 +205,24 @@
     <footer>
       <!--Adress-->
       <div>
-        <address>
-          web studio<br />
+        <a class="logo-footer" href="./index.html">
+          <span><span class="web">Web</span>Studio</span>
+        </a>
+        <address class="address">
           <ul>
             <li>
               г. Киев, пр-т Леси Украинки, 26
               <br />
             </li>
-            <li><a href="mailto:mango@mail.pig">info@example.com</a><br /></li>
             <li>
-              <a href="tel:+1112223344">+38 099 111 11 11</a>
+              <a class="adress-link" href="mailto:mango@mail.pig"
+                >info@example.com</a
+              ><br />
+            </li>
+            <li>
+              <a class="adress-link" href="tel:+1112223344"
+                >+38 099 111 11 11</a
+              >
             </li>
           </ul>
         </address>
@@ -268,7 +251,7 @@
         <a href="" class="button">Подписаться</a>
       </div>
 
-      <p>2020 | Developed by GoIT Students</p>
+      <p class="madeby">2020 | Developed by GoIT Students</p>
     </footer>
   </body>
 </html>
