@@ -3,6 +3,7 @@ body {
   background-color: white;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
+  
 }
 /* убираем точки в списке во всем файле */
 ul {
@@ -41,6 +42,7 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 .web {
   color: #2196f3;
@@ -55,6 +57,8 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -71,6 +75,8 @@ ul {
 
 .auth-nav .link {
   color: var(--secondary-text-color);
+
+  text-decoration: none;
 }
 
 .auth-nav .link:hover,
@@ -91,6 +97,8 @@ ul {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+
+  text-decoration: none;
 }
 
 /* футер */
@@ -110,6 +118,8 @@ footer {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.18;
+
+    text-decoration: none;
   }
   /* address */
   .address {
@@ -120,6 +130,9 @@ footer {
   }
   .adress-link {
     color: rgba(255, 255, 255, 0.6);
+
+    text-decoration: none;
+
   }
   
   .madeby {
