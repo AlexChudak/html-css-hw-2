@@ -59,23 +59,42 @@ ul {
 .auth-nav .link:hover,
 .sauth-nav .link:focus {
   color: var(--accent-color);
+
 }
 
-/* Hero */
+/* hero*/
 .hero-title {
   color: white;
-}
 
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: tomato;
+}
 /* Section & h2 */
 .section-title {
   color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
 /* Features */
+
+.features-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14; 
+}
 .features-text {
   color: var(--secondary-text-color);
-}
+  font-size: 14px;
+  line-height: 1.71;
 
+}
 /* button */
 .button {
   color: white;
@@ -84,7 +103,13 @@ ul {
 
 /* ЧЕМ МЫ ЗАНИМАЕМСЯ */
 .section .workline {
+  background-color: rgba(47, 48, 58, 0.8);;
   color: white;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
 }
 
 /* наша команда */
@@ -93,26 +118,17 @@ ul {
 }
 .name {
   color: var(--primary-text-color);
+
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
 }
 
 .position {
   color: var(--secondary-text-color);
+
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
 }
 
-/* футер */
-footer {
-  background-color: #2f303a;
-  color: white;
-}
-.logo-footer {
-  color: white;
-}
-/* address */
-
-.adress-link {
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.madeby {
-  color: rgba(255, 255, 255, 0.6);
-}

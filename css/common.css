@@ -1,6 +1,8 @@
 body {
   color: #212121;
   background-color: white;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 /* убираем точки в списке во всем файле */
 ul {
@@ -26,9 +28,19 @@ ul {
 /* цвет акцента текста #2196F3 и заливка кнопок */
 /*  Developed by color: rgba(255, 255, 255, 0.4); */
 
+/* Основной шрифт font-family: Roboto; */
+/* Лого шрифт font-family: Raleway; */
+
+/* font-family: inherit;  - чтобы  кнопки унаследовали основные свойства */
+
+
 /* logo */
 .logo {
   color: var(--primary-text-color);
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 .web {
   color: #2196f3;
@@ -38,6 +50,11 @@ ul {
 
 .site-nav .link {
   color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -57,29 +74,60 @@ ul {
 }
 
 .auth-nav .link:hover,
-.sauth-nav .link:focus {
+.auth-nav .link:focus {
   color: var(--accent-color);
 }
+
+
+
+
 /* button */
 .button {
   color: white;
   background-color: var(--primary-bg-color);
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
 }
 
 /* футер */
 footer {
-  background-color: #2f303a;
-  color: white;
-}
-.logo-footer {
-  color: white;
-}
-/* address */
+    background-color: #2f303a;
+    color: white;
+  
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+  }
+  .logo-footer {
+    color: white;
 
-.adress-link {
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.madeby {
-  color: rgba(255, 255, 255, 0.6);
-}
+    font-family: raleway, sans-serif;
+  
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.18;
+  }
+  /* address */
+  .address {
+    
+    font-size: 14px;
+    line-height: 1.71;
+  
+  }
+  .adress-link {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .madeby {
+    color: rgba(255, 255, 255, 0.6);
+  
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 2;
+    text-align: center;
+  }
+  
