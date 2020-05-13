@@ -1,20 +1,7 @@
-body {
-  color: #212121;
-  background-color: white;
-}
-/* убираем точки в списке во всем файле */
-ul {
-  list-style: none;
-}
+
 
 /* CSS переменные, применяем кл всем доку */
 
-:root {
-  --primary-text-color: #212121;
-  --secondary-text-color: #757575;
-  --accent-color: #2196f3;
-  --primary-bg-color: #2196f3;
-}
 
 /* фон хедера background:#FFFFFF */
 /* фон основной #E5E5E5 */
@@ -38,6 +25,7 @@ ul {
 
 .site-nav .link {
   color: var(--primary-text-color);
+  font-size: 14px;
 }
 
 .site-nav .link:hover,
@@ -45,10 +33,7 @@ ul {
   color: var(--accent-color);
 }
 
-/* чтобы подсечивалась ссылка */
-.site-nav .link-current {
-  color: var(--accent-color);
-}
+
 
 /* auth-nav */
 
@@ -88,6 +73,7 @@ ul {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14; 
+  text-transform: uppercase;
 }
 .features-text {
   color: var(--secondary-text-color);
@@ -96,10 +82,7 @@ ul {
 
 }
 /* button */
-.button {
-  color: white;
-  background-color: var(--primary-bg-color);
-}
+
 
 /* ЧЕМ МЫ ЗАНИМАЕМСЯ */
 .section .workline {
@@ -118,7 +101,8 @@ ul {
 }
 .name {
   color: var(--primary-text-color);
-
+  
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
